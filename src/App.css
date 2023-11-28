@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&display=swap");
+body::-webkit-scrollbar
+{
+  display: none;
+}
+.App {
+  text-align: center;
+  /* font-family: 'Bricolage Grotesque', sans-serif; */
+}
+
+#profilename {
+  background-image: url(https://scitechdaily.com/images/Massive-Galaxy.gif);
+  background-clip: text;
+  -moz-background-clip: text;
+  color: transparent;
+}
+.react-calendar__navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  /* width: 50%; */
+  /* margin-left: 20%; */
+}
+.react-calendar__navigation__arrow {
+  font-size: 2rem;
+  margin: auto 2rem;
+}
+.react-calendar__month-view__weekdays__weekday abbr
+{
+  text-decoration: none;
+}
